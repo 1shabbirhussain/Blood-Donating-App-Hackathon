@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "355972515256",
+    "project_id": "mini-hackathon-jp",
+    "storage_bucket": "mini-hackathon-jp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355972515256:android:14776dcffe0b3b961b7b4d",
+        "android_client_info": {
+          "package_name": "com.example.hackathon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4WPJya51vNRjPJcn5zJ8rtPEpzKlZjRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
