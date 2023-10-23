@@ -23,7 +23,7 @@ class _MyWidgetState extends State<LoginScreen> {
           email: emailController.text, password: passwordController.text);
       emailController.clear();
       passwordController.clear();
-      Navigator.push(context, MaterialPageRoute(builder: (context) {
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) {
         return Home_View();
       }));
     } on FirebaseAuthException catch (e) {
@@ -100,7 +100,7 @@ class _MyWidgetState extends State<LoginScreen> {
                               const InputDecoration(hintText: "Password"),
                         ),
                         const SizedBox(
-                          height: 50,
+                          height: 35,
                         ),
                         Container(
                           width: 254,
@@ -120,7 +120,7 @@ class _MyWidgetState extends State<LoginScreen> {
                         ),
                         TextButton(
                           onPressed: () {
-                            Navigator.push(context,
+                            Navigator.pushReplacement(context,
                                 MaterialPageRoute(builder: (context) {
                               return const SignUpScreen();
                             }));

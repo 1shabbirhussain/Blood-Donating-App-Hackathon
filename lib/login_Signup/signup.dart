@@ -41,7 +41,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
         numberController.clear();
         bloodGroupController.clear();
 
-        Navigator.push(context, MaterialPageRoute(builder: (context) {
+        Navigator.pushReplacement(context,
+            MaterialPageRoute(builder: (context) {
           return LoginScreen();
         }));
       } else {
@@ -216,7 +217,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           ),
                           TextButton(
                               onPressed: () {
-                                Navigator.push(context,
+                                Navigator.pushReplacement(context,
                                     MaterialPageRoute(builder: (context) {
                                   return LoginScreen();
                                 }));
